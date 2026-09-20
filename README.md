@@ -2,6 +2,8 @@
 
 ~多半是被学校逼的吧~
 
+/BIN 里面是学校给我的比古董更老的古董。
+
 ---
 # 8086 Assembly Environment for VS Code
 
