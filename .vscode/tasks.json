@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "8086: Build & Run",
+            "type": "shell",
+            "command": "C:\\DOSBox-X\\dosbox-x.exe",
+            "args": [
+                "-c",
+                "masm ${fileBasename};",
+                "-c",
+                "link ${fileBasenameNoExtension}.obj;",
+                "-c",
+                "${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
